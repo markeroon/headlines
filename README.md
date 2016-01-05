@@ -6,4 +6,6 @@ Python's title() function for strings capitalizes inappropriate words, like a, a
 # setup
 
 # Run test suite
-py.test test_headlines.py
+Headlines uses py.test for its test suite.
+
+      py.test test_headlines.py
