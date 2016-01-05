@@ -37,4 +37,4 @@ def titleize(title_str):
         raise TypeError('Need to input a unicode string.')
     #titleized = title_str.title()
     capitalized = capitalize_words(title_str)
-    return articles_to_lower_case(capitalized)
+    return capitalize_first_word(articles_to_lower_case(capitalized))

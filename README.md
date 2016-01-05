@@ -1,9 +1,10 @@
 # headlines
 Get proper titleization for Python strings.
 
-Python's title() function for __unicode__ strings capitalizes 
+Python's title() function for strings capitalizes 
 inappropriate words, like a, an, for, via, etc. Headlines does not.
 
+Headlines works on __unicode__ strings.
 # Usage
       >>>import headlines 
       >>>headlines.titleize(u"hey to you")
