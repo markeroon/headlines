@@ -21,6 +21,12 @@ def articles_to_lower_case(title_str):
         title_str = title_str.replace(key, val)
     return title_str
 
+def capitalize_first_word(title_str):
+    if len(title_str) > 0:
+        return u"" + title_str[0].upper() + title_str[1:]
+    else:
+        return u""
+
 def capitalize_words(title_str):
     return re.sub(
         r"\b('?[a-z])",
