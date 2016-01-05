@@ -12,5 +12,5 @@ class TestRequests(object):
         tst_str = u"My first post | My"
         assert headlines.titleize(tst_str) == "My First Post | My"
     def test_japanese_chars(self):
-        tst_str = u"僰  僱  僲  僳  僴  僵  僶  僷  僸  價 僺  僻  僼  僽  僾  僿"        
+        tst_str = u"僰  僱  僲  僳  僴  僵  僶  僷  僸  價 僺  僻  僼"
         assert headlines.titleize(tst_str) == tst_str
